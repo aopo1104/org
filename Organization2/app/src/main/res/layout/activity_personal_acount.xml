@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EAEAEA">
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/Tv_personalAcount_nickName"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:text="飞哥"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="0.7dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录邮箱"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:padding="5dp"/>
+        <TextView
+            android:id="@+id/Tv_personalAcount_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="724346543@qq.com"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_personalAcount_changePsw"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:text="修改密码"
+            android:layout_centerVertical="true"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout>

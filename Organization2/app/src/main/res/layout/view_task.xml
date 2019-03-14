@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view_task_isread"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="top|right|end"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="-30dp"
+        android:background="@drawable/triangle_shape_red"
+        android:rotation="0" />
+
+    <TextView
+        android:id="@+id/Tv_task_isread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|end"
+        android:layout_marginTop="12dp"
+        android:rotation="45"
+        android:layout_alignParentRight="true"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/view_Task_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Iv_friendsfind"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:text="标题："/>
+    <TextView
+        android:id="@+id/Tv_viewTask_title"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_toRightOf="@+id/view_Task_tv1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="1111"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:id="@+id/view_Task_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tv_viewTask_title"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:text="时间："/>
+    <TextView
+        android:id="@+id/Tv_viewTask_time"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_toRightOf="@+id/view_Task_tv2"
+        android:layout_below="@+id/Tv_viewTask_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="1111"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+</RelativeLayout>

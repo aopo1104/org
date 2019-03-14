@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom|center"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_first"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_homePage"
+                style="@style/TabButtonImg"
+                android:src="@drawable/home_page"/>
+            <TextView
+                android:id="@+id/text_homePage"
+                style="@style/TabButton"
+                android:text="首页" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_second"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_messagePage"
+                style="@style/TabButtonImg"
+                android:src="@drawable/message_page"/>
+            <TextView
+                android:id="@+id/text_messagePage"
+                style="@style/TabButton"
+                android:text="消息" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_third"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_workPage"
+                style="@style/TabButtonImg"
+                android:src="@drawable/work_page"/>
+            <TextView
+                android:id="@+id/text_workPage"
+                style="@style/TabButton"
+                android:text="工作" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_fourth"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_addresslistPage"
+                style="@style/TabButtonImg"
+                android:src="@drawable/addresslist_page"/>
+            <TextView
+                android:id="@+id/text_addresslistPage"
+                style="@style/TabButton"
+                android:text="通讯录" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_fifth"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_personalPage"
+                style="@style/TabButtonImg"
+                android:src="@drawable/personal_page"/>
+            <TextView
+                android:id="@+id/text_personalPage"
+                style="@style/TabButton"
+                android:text="我的" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

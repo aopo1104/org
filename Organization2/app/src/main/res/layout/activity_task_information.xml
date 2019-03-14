@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <TextView
+                android:id="@+id/Tv_taskInformation_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="这个是题目！！"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/Tv_taskInformation_time"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="时间："/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#878787"
+                android:textSize="1sp"/>
+
+            <TextView
+                android:id="@+id/Tv_taskInformation_content"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:text="正文内容处"/>
+
+
+            <EditText
+                android:id="@+id/Et_taskInformation_report"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:inputType="textMultiLine"
+                android:background="@drawable/bg_edittext_normal"
+                android:layout_margin="10dp"
+                android:hint="请记录下你的反馈"
+                android:gravity="top"/>
+
+            <Button
+                android:id="@+id/Btn_taskInformation_isRead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                android:layout_margin="10dp"
+                android:text="已阅"
+                />
+
+            <Button
+                android:id="@+id/Btn_taskInformation_report"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D1EEEE"
+                android:layout_margin="10dp"
+                android:text="提交"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

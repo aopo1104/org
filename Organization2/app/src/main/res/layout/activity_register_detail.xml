@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <!--android:background="@drawable/register_bg"-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <!--android:src="@drawable/default_icon"-->
+
+    <!--四个编辑框-->
+
+    <EditText
+        android:id="@+id/Et_RegisterDetail_userName"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:hint="请输入真实姓名"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+    <RadioGroup
+        android:id="@+id/Rb_RegisterDetail_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/Rb_RegisterDetail_male"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:gravity="center"
+            android:text="男" />
+
+        <RadioButton
+            android:id="@+id/Rb_RegisterDetail_female"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="false"
+            android:text="女" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/Et_RegisterDetail_password"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="48dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+
+        android:drawablePadding="10dp"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+    <!--android:background="@drawable/register_psw_bg"-->
+    <!--android:drawableLeft="@drawable/psw_icon"-->
+    <EditText
+        android:id="@+id/Et_RegisterDetail_passwordAgain"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+
+        android:drawablePadding="10dp"
+        android:hint="请再次输入密码"
+        android:inputType="textPassword"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+    <EditText
+        android:id="@+id/Et_RegisterDetail_school"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="48dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+
+        android:drawablePadding="10dp"
+        android:hint="请输入学校名"
+
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+    <EditText
+        android:id="@+id/Et_RegisterDetail_academy"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="48dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+
+        android:drawablePadding="10dp"
+        android:hint="请输入学院名"
+
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+    <EditText
+        android:id="@+id/Et_RegisterDetail_class"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="48dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+
+        android:drawablePadding="10dp"
+        android:hint="请输入班级名"
+
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+    <EditText
+        android:id="@+id/Et_RegisterDetail_studentId"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="48dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+
+        android:drawablePadding="10dp"
+        android:hint="请输入学号"
+
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:textSize="14sp"/>
+    <!--android:background="@drawable/register_psw_again_bg"-->
+    <!--android:drawableLeft="@drawable/psw_icon"-->
+    <Button
+        android:id="@+id/Btn_RegisterDetail"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="15dp"
+
+        android:text="注 册"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+    <!--android:background="@drawable/register_selector"-->
+</LinearLayout>

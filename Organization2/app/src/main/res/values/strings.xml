@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Organization2</string>
+
+    <string-array name="Spinner_CreateOrg_orgProperty_data">
+        <item>社团</item>
+        <item>学生组织</item>
+    </string-array>
+
+    <string-array name="Spinner_CreateOrg_orgStar">
+        <item>一星级</item>
+        <item>二星级</item>
+        <item>三星级</item>
+        <item>四星级</item>
+        <item>五星级</item>
+    </string-array>
+
+    <string-array name="Spinner_createActivity_type">
+        <item>活动</item>
+        <item>比赛</item>
+    </string-array>
+</resources>

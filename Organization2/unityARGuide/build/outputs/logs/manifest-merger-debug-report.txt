@@ -1,0 +1,197 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:2:70-100
+		INJECTED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml
+		INJECTED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:2:101-126
+		INJECTED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml
+		INJECTED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:2:127-150
+		INJECTED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml
+		INJECTED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:2:151-191
+uses-sdk
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:3:3-72
+INJECTED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:3:3-72
+INJECTED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:3:3-72
+	android:targetSdkVersion
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:3:40-69
+		INJECTED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml
+		INJECTED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:3:13-39
+uses-permission#android.permission.INTERNET
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:5:3-65
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:5:20-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:7:3-69
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:7:20-66
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:9:3-77
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:9:20-74
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:11:3-74
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:11:20-71
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:13:3-77
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:13:20-74
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:15:3-73
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:15:20-70
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:18:3-70
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:18:20-67
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:20:3-79
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:20:20-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:22:3-78
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:22:20-75
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:24:3-71
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:24:20-68
+uses-permission#android.permission.CAMERA
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:26:3-63
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:26:20-60
+application
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:27:3-39:17
+	android:supportsRtl
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:27:76-102
+	android:label
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:27:43-75
+	android:allowBackup
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:27:16-42
+	android:banner
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:27:125-162
+	android:isGame
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:27:103-124
+activity#com.ssk.unityARGuide.UnityPlayerActivity
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:28:5-52
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:28:15-49
+activity#com.ssk.unityARGuide.Speech
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:29:5-49
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:29:15-37
+activity#com.ssm.ssm.speechrecognizer.MainActivity
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:30:5-34:16
+	android:label
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:30:72-104
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:30:15-71
+meta-data#Unityplayer.ForwardNativeEventsToDalvik
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:31:7-33:34
+	android:value
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:33:11-31
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:32:11-65
+meta-data#unity.build-id
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:35:5-101
+	android:value
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:35:46-98
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:35:16-45
+meta-data#unity.splash-mode
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:36:5-69
+	android:value
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:36:49-66
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:36:16-48
+meta-data#unity.splash-enable
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:37:5-74
+	android:value
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:37:51-71
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:37:16-50
+meta-data#android.max_aspect
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:38:5-72
+	android:value
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:38:50-69
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:38:16-49
+uses-feature#0x00020000
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:40:3-52
+	android:glEsVersion
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:40:17-49
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:41:3-77
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:41:20-74
+uses-feature#android.hardware.location.gps
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:42:3-89
+	android:required
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:42:62-86
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:42:17-61
+uses-feature#android.hardware.location
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:43:3-85
+	android:required
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:43:58-82
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:43:17-57
+uses-feature#android.hardware.camera
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:44:3-83
+	android:required
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:44:56-80
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:44:17-55
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:45:3-93
+	android:required
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:45:66-90
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:45:17-65
+uses-feature#android.hardware.camera.front
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:46:3-89
+	android:required
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:46:62-86
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:46:17-61
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:47:3-97
+	android:required
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:47:70-94
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:47:17-69
+uses-feature#android.hardware.touchscreen
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:48:3-88
+	android:required
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:48:61-85
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:48:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:49:3-99
+	android:required
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:49:72-96
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:49:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:50:3-108
+	android:required
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:50:81-105
+	android:name
+		ADDED from D:\android Text\Organization2\unityARGuide\src\main\AndroidManifest.xml:50:17-80

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#fff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="手机号"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/Tv_personal_smsPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="6"
+            android:gravity="center"
+            android:text="123"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="1px"
+        android:background="#E4E4E4"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="验证码"
+
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/Et_personal_smsYanzhengma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:background="@null"
+            android:gravity="center"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/Btn_personal_Message"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="获取验证码"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/Btn_personal_smsSumbit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:text="提交"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/Tv_personal_smsNosms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#4876FF"
+        android:textSize="16sp"
+        android:text="收不到验证码？"/>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.industryproject.Activity.PersonalPage.Setting.Activity_hasNotVerified"
+    android:orientation="vertical">
+
+    <!--拍照按钮-->
+    <Button android:id="@+id/Btn_personalHasNotVerified_openPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拍照"
+        />
+
+    <!--照片展示-->
+    <ImageView
+        android:id="@+id/Img_personalHasNotVerified_photoShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E5E5E5">
+    <ImageView
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/phone"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="如你的手机号码已不用，请及时更换"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+    <RelativeLayout
+        android:id="@+id/layout_Personalphone"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF">
+        <TextView
+            android:id="@+id/Tv_personal_PhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="187******38"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:padding="5dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/rightarrow"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加手机号"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:padding="5dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/rightarrow"/>
+    </RelativeLayout>
+
+</LinearLayout>

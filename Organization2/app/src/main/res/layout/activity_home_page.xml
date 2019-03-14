@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.example.asus.organization2.Override.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.jude.rollviewpager.RollPagerView
+                android:id="@+id/Pv_homePage"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:rollviewpager_play_delay="3000">
+            </com.jude.rollviewpager.RollPagerView>
+
+            <com.example.asus.organization2.Override.ListView_NoScroll
+                android:id="@+id/Lv_homePage_activity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/Pv_homePage">
+            </com.example.asus.organization2.Override.ListView_NoScroll>
+
+            <TextView
+                android:id="@+id/line_homePage"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/gray"
+                android:layout_below="@+id/Lv_homePage_activity"/>
+
+            <RelativeLayout
+                android:id="@+id/layout_moreActivity"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/line_homePage">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="更多"
+                    android:layout_centerVertical="true"
+                    android:textSize="16sp"
+                    android:padding="5dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/rightarrow"/>
+
+            </RelativeLayout>
+       </RelativeLayout>
+    </com.example.asus.organization2.Override.MyScrollView>
+
+
+</LinearLayout>
